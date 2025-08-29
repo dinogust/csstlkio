@@ -1,0 +1,64 @@
+/* ===== Container ===== */
+#tlkio {
+  font-family: "Inter", Arial, sans-serif !important;
+  background-color: #0f172a !important; /* dark navy */
+  color: #f8fafc !important;
+  border-radius: 8px;
+  border: 1px solid #1e293b;
+}
+
+/* ===== Message List ===== */
+#tlkio .tlkio-messages {
+  background-color: transparent !important;
+  padding: 8px;
+}
+
+/* Each message bubble */
+#tlkio .tlkio-message {
+  margin-bottom: 6px;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+/* User nickname */
+#tlkio .tlkio-message .tlkio-username {
+  font-weight: 600;
+  color: #38bdf8 !important; /* cyan accent */
+  margin-right: 6px;
+}
+
+/* User text */
+#tlkio .tlkio-message .tlkio-text {
+  color: #f8fafc !important;
+}
+
+/* ===== Input area ===== */
+#tlkio .tlkio-form {
+  border-top: 1px solid #1e293b;
+  padding: 6px;
+  background-color: #1e293b !important;
+}
+
+#tlkio .tlkio-form input[type="text"] {
+  background: #0f172a !important;
+  color: #f8fafc !important;
+  border: 1px solid #334155 !important;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+#tlkio .tlkio-form button {
+  background: #38bdf8 !important;
+  border: none;
+  color: #0f172a !important;
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 6px 12px;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+#tlkio .tlkio-form button:hover {
+  background: #0ea5e9 !important;
+  color: #fff !important;
+}
