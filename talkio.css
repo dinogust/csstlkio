@@ -5,3 +5,7 @@
   color: #666;
   margin-bottom: 4px;
 }
+
+.message-input::placeholder {
+  font-size: 12px !important;
+}
